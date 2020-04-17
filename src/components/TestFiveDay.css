@@ -1,0 +1,86 @@
+.fullForecastWrapper {
+    font-family: "montseratt", sans-serif;
+    
+}
+
+.forecastTitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px rgb(226, 226, 226, 0.5);
+    margin-top: 20px;
+}
+.date {
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(226, 226, 226, 0.5);
+    margin: 10px 0px 20px 0px;
+}
+
+.weatherInfo {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    background-color: rgb(91, 90, 90);
+    margin: 0 -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    height: 25px;
+}
+
+.weatherInfo div {
+    justify-content: flex-start;
+    
+    flex-basis: 20%;
+    flex-shrink: 2;
+}
+
+.forecastWrapper {
+    color: white;
+    text-shadow: 1px 1px rgba(164, 164, 164, 0.5);
+    background-color: rgba(221, 221, 221, 0.4);
+    width: 90vw;
+    margin: 0 auto;
+    height: min-content;
+    
+    
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 4px 4px rgba(109, 109, 109, 0.5);
+}
+
+.forecastDay {
+    background: rgba(31, 31, 31, 0.8);
+    margin: 0 -20px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 2px
+    
+    
+
+}
+
+.dayOne {
+    border-radius: 20px 20px 0 0;
+}
+
+.lastDay {
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+   
+}
+

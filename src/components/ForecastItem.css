@@ -1,0 +1,48 @@
+.forecastItemWrapper {
+    border: 1px solid black
+}
+
+.Sunday {
+    
+}
+.Monday {
+    
+}
+.Tuesday {
+    
+}
+.Wednesday {
+    
+}
+.Thursday{
+    
+}
+.Friday {
+    
+}
+.Saturday {
+    
+}
+
+.Sunday, .Monday, .Tuesday, .Wednesday, .Thursday, .Friday, .Saturday {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.allDays {
+
+    align-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+    
+    
+}
+
+.threeHourForecastItem {
+    
+    justify-content: flex-start;
+    
+    flex-basis: 20%;
+    flex-shrink: 2;
+}
